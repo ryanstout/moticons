@@ -7,6 +7,6 @@ require "motion-cocoapods"
 Motion::Project::App.setup do |app|
   app.files += Dir.glob(File.join(File.dirname(__FILE__), "moticons", "**", "*.rb"))
   app.pods do
-    pod "FontAwesomeKit", "~> 2.2"
+    pod "FontAwesomeKit", git: 'https://github.com/robbiet480/FontAwesomeKit.git'
   end
 end
