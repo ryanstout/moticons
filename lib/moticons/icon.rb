@@ -4,7 +4,8 @@ module Moticons
       awesome: :FAKFontAwesome,
       foundation: :FAKFoundationIcons,
       ion: :FAKIonIcons,
-      zocial: :FAKZocial
+      zocial: :FAKZocial,
+      materialize: :FAKMaterialIcons
     }
 
     attr_reader :collection, :name, :size, :color
